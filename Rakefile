@@ -1,4 +1,5 @@
 require 'squib'
+require 'irb';
 
 task default: [:deck]
 
