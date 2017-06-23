@@ -1,3 +1,16 @@
+barter:
+  extends: description
+  x: 75
+  width: 225
+  hint: black
+  font: Serif 26
+befriend:
+  extends: barter
+  x: += 225
+battle:
+  extends: barter
+  x: += 450
+
 # The "cut line", without rounded corners
 cut:
   x: 37.5
