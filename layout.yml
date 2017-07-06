@@ -4,7 +4,7 @@ barter:
   width: 225
   hint: black
   font: Serif 26
-befriend:
+build:
   extends: barter
   x: += 225
 battle:
