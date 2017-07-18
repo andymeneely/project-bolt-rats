@@ -32,4 +32,16 @@ class Combat
     end
   end
 
+  def win?(my_hp, my_atk, creature_hp, creature_atk)
+    # require 'byebug'; byebug
+    while my_hp > 0
+      next_hit = attack()
+      next_hit += my_atk if next_hit > 0 # MISS is always a MISS
+      creature_hp -= next_hit
+      return true if creature_hp <= 0
+      my_hp -= creature_atk
+    end
+    return false
+  end
+
 end

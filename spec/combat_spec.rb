@@ -52,7 +52,60 @@ describe Combat do
     end
   end
 
-  context(:fight) do
+  context(:win?) do
 
+    it 'one-shots the monster' do
+      my_hp  = 10
+      my_atk = 0
+      cr_hp  = 10
+      cr_atk = 2
+      expect(rng).to receive(:next).and_return(5) # Roll 6 CRIT!
+      expect(rng).to receive(:next).and_return(5) # Roll 6 CRIT!
+      expect(rng).to receive(:next).and_return(2) # Roll 3 (16!)
+      win = subject.win?(my_hp, my_atk, cr_hp, cr_atk)
+      expect(win).to be true
+    end
+
+    it 'always misses' do
+      my_hp  = 100
+      my_atk = 0
+      cr_hp  = 1
+      cr_atk = 1
+      # 100 MISS rolls. Ouch.
+      expect(rng).to receive(:next).and_return(0).exactly(100).times
+      win = subject.win?(my_hp, my_atk, cr_hp, cr_atk)
+      expect(win).to be false
+    end
+
+    it 'loses because of atk' do
+      my_hp  = 1
+      my_atk = 0
+      cr_hp  = 8
+      cr_atk = 1
+      expect(rng).to receive(:next).and_return(0).once # MISS
+      win = subject.win?(my_hp, my_atk, cr_hp, cr_atk)
+      expect(win).to be false
+    end
+
+    it 'loses despite having great atk' do
+      my_hp  = 1
+      my_atk = 1000
+      cr_hp  = 8
+      cr_atk = 1
+      expect(rng).to receive(:next).and_return(0).once # MISS
+      win = subject.win?(my_hp, my_atk, cr_hp, cr_atk)
+      expect(win).to be false
+    end
+
+    it 'wins because of a bad roll but great atk' do
+      my_hp  = 1
+      my_atk = 1000
+      cr_hp  = 8
+      cr_atk = 1
+       # ROLL 2, not enough. ATK will save us!
+      expect(rng).to receive(:next).and_return(1).once
+      win = subject.win?(my_hp, my_atk, cr_hp, cr_atk)
+      expect(win).to be true
+    end
   end
 end
