@@ -7,8 +7,8 @@ class Combat
     @rng = rng
   end
 
-  def attack
-    roll = @rng.next(5) + 1
+  def attack(cr_hp, total_hit = 0)
+    roll = @rng.rand(6) + 1 # rand is NON inclusive
     case roll
     when 1
       return 0
@@ -21,7 +21,8 @@ class Combat
     when 5
       return roll
     when 6
-      next_attack = attack()
+      return 6 if total_hit + 6 > cr_hp # quit if you've won
+      next_attack = attack(cr_hp, total_hit + 6)
       if next_attack == 0
         return 0
       else
@@ -35,7 +36,7 @@ class Combat
   def win?(my_hp, my_atk, creature_hp, creature_atk)
     # require 'byebug'; byebug
     while my_hp > 0
-      next_hit = attack()
+      next_hit = attack(creature_hp)
       next_hit += my_atk if next_hit > 0 # MISS is always a MISS
       creature_hp -= next_hit
       return true if creature_hp <= 0

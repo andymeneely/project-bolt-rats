@@ -3,6 +3,5 @@ require 'irb';
 
 task default: [:deck]
 
-task :deck do
-  load 'deck.rb'
-end
+task(:deck) { load 'deck.rb' }
+task(:sim) { load 'lib/sim_combat.rb' }
