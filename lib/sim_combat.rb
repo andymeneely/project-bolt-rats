@@ -6,10 +6,10 @@ n = 1000
 
 CSV.open("data/combat_sim_results.csv", 'w+') do |csv|
   csv << %w(my_hp my_atk creature_hp creature_atk win%)
-  1.upto(15).each do |my_hp|
+  1.upto(20).each do |my_hp|
     0.upto(4).each do |my_atk|
-      1.upto(15).each do |cr_hp|
-        1.upto(4).each do |cr_atk|
+      1.upto(20).each do |cr_hp|
+        2.upto(4).each do |cr_atk|
           wins = 0
           n.times do
             wins +=1 if combat.win?(my_hp, my_atk, cr_hp, cr_atk)

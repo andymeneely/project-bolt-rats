@@ -1,174 +1,195 @@
-       ╭------------------------------------╮
-  Name | Bolt Rats                          |
-  Size | Small                              |
- Metal | 3                                  |
-Fabric | 0                                  |
-   Oil | 1                                  |
-Barter | 3:1:1 Metal:Fabric:Oil             |
- Build | Strong Magnet                      |
-       | for 4 Metal                        |
-Battle | 6 HP. 2 ATK.                       |
-       | Insta-slaughter: Use Tote Bag      |
-  Card | 1                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Can of Lube                        |
-  Size | Small                              |
- Metal | 0                                  |
-Fabric | 1                                  |
-   Oil | 3                                  |
-Barter | 1:1:1 Metal:Fabric:Oil             |
- Build | Fireball                           |
-       | for 1 Fabric + 1 Oil               |
-Battle | 7 HP. 2 ATK.                       |
-  Card | 2                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Socket Wrench Puppy                |
-  Size | Small                              |
- Metal | 2                                  |
-Fabric | 0                                  |
-   Oil | 1                                  |
-Barter | 1 Oil for 2HP                      |
-       | or                                 |
-       | 2 Fabric for 3 HP                  |
- Build | Bandages                           |
-       | for 1 Fabric + 1 Duct Tape         |
-Battle | 6 HP. 1 ATK.                       |
-  Card | 3                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Minor Ductwork                     |
-  Size | Small                              |
- Metal | 3                                  |
-Fabric | 1                                  |
-   Oil | 1                                  |
-Barter | 2:1 Fabric:Duct Tape               |
- Build | Tape Dispensor                     |
-       | for 2 Metal + 1 Oil                |
-Battle | 12 HP. 2 ATK.                      |
-       | Insta-slaughter: Use Bandages      |
-  Card | 4                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Rusty Toolbox                      |
-  Size | Small                              |
- Metal | 4                                  |
-Fabric | 4                                  |
-   Oil | 2                                  |
-Barter | 4:3:2:1 for Metal:Fabric:Oil:Duct  |
-       | Tape                               |
- Build | Strange Device                     |
-       | for 3 Metal + 1 Duct Tape          |
-Battle | 6 HP. 1 ATK.                       |
-  Card | 5                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Tetanus Worms                      |
-  Size | Small                              |
- Metal | 5                                  |
-Fabric | 2                                  |
-   Oil | 0                                  |
-Barter | 1 Oil for +1 ATK                   |
- Build | Whacking Plank                     |
-       | for 3 Metal and 1 Duct tape        |
-Battle | 5 HP. 3 ATK.                       |
-       | Insta-slaughter: Use Strong Magnet |
-       |                                    |
-  Card | 6                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Curtain Ghost                      |
-  Size | Small                              |
- Metal | 1                                  |
-Fabric | 7                                  |
-   Oil | 0                                  |
-Barter | 1:2 for Metal:Fabric               |
- Build | Tote Bag                           |
-       | for 3 Fabric                       |
-Battle | 18 HP. 2 ATK.                      |
-  Card | 7                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Sprocket Bats                      |
-  Size | Big                                |
- Metal | 5                                  |
-Fabric | 5                                  |
-   Oil | 5                                  |
-Barter | 4:1:1:1 Metal:Fabric:Oil:Duct Tape |
-       |                                    |
- Build | Tape Dispensor                     |
-Battle | 3 HP. 3 ATK.                       |
-       | Insta-slaughter: Have Whacking Pla |
-       | nk                                 |
-  Card | 1                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Oil Nymph                          |
-  Size | Big                                |
- Metal | 5                                  |
-Fabric | 5                                  |
-   Oil | 5                                  |
-Barter | 1:1 Oil:Duct tape                  |
- Build | Fireball                           |
-       | for 1 Fabric + 1 Oil               |
-Battle | 13 HP. 3 ATK.                      |
-       | Insta-slaughter: Fireball          |
-  Card | 2                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Petulant Tig Welder                |
-  Size | Big                                |
- Metal | 5                                  |
-Fabric | 5                                  |
-   Oil | 5                                  |
-Barter | 4 Metal for +1 ATK                 |
- Build |                                    |
-Battle |                                    |
-  Card | 3                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Major Ductwork                     |
-  Size | Big                                |
- Metal | 5                                  |
-Fabric | 5                                  |
-   Oil | 5                                  |
-Barter | 3:1 Metal:Duct Tape                |
- Build |                                    |
-Battle |                                    |
-  Card | 4                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Sewing Machine                     |
-  Size | Big                                |
- Metal | 5                                  |
-Fabric | 5                                  |
-   Oil | 5                                  |
-Barter |                                    |
- Build |                                    |
-Battle |                                    |
-  Card | 5                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | The Crusher                        |
-  Size | Big                                |
- Metal | 5                                  |
-Fabric | 5                                  |
-   Oil | 5                                  |
-Barter | Disassemble 1 Tool to raw material |
-       | s, except duct tape.               |
- Build |                                    |
-Battle |                                    |
-  Card | 6                                  |
-       ╰------------------------------------╯
-       ╭------------------------------------╮
-  Name | Tap Spider                         |
-  Size | Big                                |
- Metal | 5                                  |
-Fabric | 5                                  |
-   Oil | 5                                  |
-Barter |                                    |
- Build |                                    |
-Battle |                                    |
-  Card | 7                                  |
-       ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Bolt Rats                          |
+      Size | Small                              |
+     Metal | 3                                  |
+    Fabric | 0                                  |
+       Oil | 1                                  |
+    Barter | 3:1:1 Metal:Fabric:Oil             |
+     Build | Strong Magnet                      |
+           | for 4 Metal                        |
+    Battle | 12 HP. 2 ATK.                      |
+           |  ⃠ Use Tote Bag                    |
+      Card | 1                                  |
+Est. Value | 1.25                               |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Can of Lube                        |
+      Size | Small                              |
+     Metal | 0                                  |
+    Fabric | 1                                  |
+       Oil | 3                                  |
+    Barter | 1:1:1 Metal:Fabric:Oil             |
+     Build | Fireball                           |
+           | for 1 Fabric, 1 Oil                |
+    Battle | 7 HP. 2 ATK.                       |
+      Card | 2                                  |
+Est. Value | 1.8333333333333333                 |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Socket Wrench Puppy                |
+      Size | Small                              |
+     Metal | 2                                  |
+    Fabric | 0                                  |
+       Oil | 1                                  |
+    Barter | 1 Oil for 2HP                      |
+           | or                                 |
+           | 2 Fabric for 3 HP                  |
+     Build | Bandages                           |
+           | for 1 Fabric, 1 Duct Tape          |
+    Battle | 6 HP. 1 ATK.                       |
+      Card | 3                                  |
+Est. Value | 1.0                                |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Minor Ductwork                     |
+      Size | Small                              |
+     Metal | 3                                  |
+    Fabric | 1                                  |
+       Oil | 1                                  |
+    Barter | 2:1 Fabric:Duct Tape               |
+     Build | Tape Dispensor                     |
+           | for 3 Metal, 1 Oil                 |
+    Battle | 14 HP. 2 ATK.                      |
+           |  ⃠ Use Bandages                    |
+      Card | 4                                  |
+Est. Value | 1.5833333333333333                 |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Rusty Toolbox                      |
+      Size | Small                              |
+     Metal | 4                                  |
+    Fabric | 4                                  |
+       Oil | 2                                  |
+    Barter | 4:3:2:1 for Metal:Fabric:Oil:Duct  |
+           | Tape                               |
+     Build | Strange Device                     |
+           | for 3 Metal, 1 Duct Tape           |
+    Battle | 10 HP. 3 ATK.                      |
+      Card | 5                                  |
+Est. Value | 3.333333333333333                  |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Tetanus Worms                      |
+      Size | Small                              |
+     Metal | 5                                  |
+    Fabric | 2                                  |
+       Oil | 0                                  |
+    Barter | +1 ATK for 1 Oil                   |
+     Build | Whacking Plank                     |
+           | for 3 Metal, 1 Duct tape           |
+    Battle | 8 HP. 3 ATK.                       |
+           |  ⃠ Have Strong Magnet              |
+      Card | 6                                  |
+Est. Value | 1.9166666666666665                 |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Curtain Ghost                      |
+      Size | Small                              |
+     Metal | 1                                  |
+    Fabric | 7                                  |
+       Oil | 0                                  |
+    Barter | 1:2 for Metal:Fabric               |
+     Build | Tote Bag                           |
+           | for 3 Fabric                       |
+    Battle | 15 HP. 2 ATK.                      |
+      Card | 7                                  |
+Est. Value | 2.5833333333333335                 |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Sprocket Bats                      |
+      Size | Big                                |
+     Metal | 5                                  |
+    Fabric | 5                                  |
+       Oil | 5                                  |
+    Barter | 4:1:1:1 Metal:Fabric:Oil:Duct Tape |
+           |                                    |
+     Build | Tape Dispensor                     |
+           | for 2 Metal, 1 Oil                 |
+    Battle | 3 HP. 3 ATK.                       |
+           |  ⃠ Use Tote Bag                    |
+      Card | 1                                  |
+Est. Value | 5.416666666666667                  |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Oil Nymph                          |
+      Size | Big                                |
+     Metal | 0                                  |
+    Fabric | 0                                  |
+       Oil | 5                                  |
+    Barter | 1:1 Oil:Duct Tape                  |
+     Build | Fireball                           |
+           | for 1 Fabric, 1 Oil                |
+    Battle | 13 HP. 3 ATK.                      |
+           |  ⃠ Use Fireball                    |
+      Card | 2                                  |
+Est. Value | 2.5                                |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Petulant Tig Welder                |
+      Size | Big                                |
+     Metal | 7                                  |
+    Fabric | 1                                  |
+       Oil | 1                                  |
+    Barter | +1 ATK for 4 Metal                 |
+     Build | Strong Magnet                      |
+           | for 3 Metal                        |
+    Battle | 16 HP. 3 ATK.                      |
+           |  ⃠ Have Strong Magnet              |
+      Card | 3                                  |
+Est. Value | 2.5833333333333335                 |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Major Ductwork                     |
+      Size | Big                                |
+     Metal | 8                                  |
+    Fabric | 5                                  |
+       Oil | 3                                  |
+    Barter | 3:1 Metal:Duct Tape                |
+     Build | Bandages                           |
+           | for 1 Fabric, 1 Duct Tape          |
+    Battle | 20 HP. 4 ATK.                      |
+      Card | 4                                  |
+Est. Value | 5.166666666666667                  |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Sewing Machine                     |
+      Size | Big                                |
+     Metal | 6                                  |
+    Fabric | 6                                  |
+       Oil | 2                                  |
+    Barter | 1:2 Metal:Fabric                   |
+     Build | 1/2 Tote Bags                      |
+           | for 2/4 Fabric                     |
+    Battle | 17 HP. 4 ATK.                      |
+           | ⃠ Have Strange Device              |
+      Card | 5                                  |
+Est. Value | 4.5                                |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | The Crusher                        |
+      Size | Big                                |
+     Metal | 8                                  |
+    Fabric | 4                                  |
+       Oil | 4                                  |
+    Barter | +2 Duct Tape for Disassembling 1 T |
+           | ool                                |
+     Build | Whacking Plank                     |
+           | for 3 Metal, 1 Duct tape           |
+    Battle | 20 HP. 4 ATK.                      |
+      Card | 6                                  |
+Est. Value | 5.333333333333333                  |
+           ╰------------------------------------╯
+           ╭------------------------------------╮
+      Name | Tap Spider                         |
+      Size | Big                                |
+     Metal | 5                                  |
+    Fabric | 1                                  |
+       Oil | 1                                  |
+    Barter | +2 Metal and +2 Fabric for 2 Oil   |
+     Build | Strange Device                     |
+           | for 2 Metal, 1 Duct Tape           |
+    Battle | 12 HP. 4 ATK                       |
+           | ⃠ Have Whacking Plank              |
+      Card | 7                                  |
+Est. Value | 2.083333333333333                  |
+           ╰------------------------------------╯

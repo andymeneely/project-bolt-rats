@@ -3,7 +3,7 @@ barter:
   x: 75
   width: 225
   hint: black
-  font: Serif
+  font: Serif, Segoe UI Symbol
   font_size: 26
 build:
   extends: barter
