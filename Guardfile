@@ -4,6 +4,6 @@ group :default do
     watch %r{.*\.csv$}
     watch %r{.*\.rb$}
     watch %r{.*\.yml}
-    watch %r{img/.*}
+    watch %r{.*\.svg$}
   end
 end

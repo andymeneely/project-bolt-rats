@@ -36,5 +36,26 @@ Squib::Deck.new(cards: 14) do
   text layout: :battle, str: 'Battle', valign: :top
 
   save format: :png
-  save format: :pdf, gap: 0, trim: 37.5
+  save format: :pdf, gap: 0, trim: 75, margin: '0.125in'
+
+  save_pdf file: 'creatures.pdf'
+end
+
+data = Squib.xlsx(file: 'game.xlsx', sheet: 1)
+
+Squib::Deck.new(cards: 2) do
+  use_layout file: ['fantasy.yml', 'layout.yml']
+  background color: :white
+  rect layout: :cut
+  rect layout: :safe
+  svg file: %w(resources.svg items.svg)
+  item_bonuses = data.recipe.zip(data.bonus).map do |r,b|
+    "<span size='60000' rise='-10000'>▢</span><b>#{r}</b>. <i>#{b}</i>"
+  end.join("\n\n")
+  puts item_bonuses
+  text range: 1, font: 'Archivo Narrow, Sans 29', markup: true,
+       spacing: '-5',
+       x: 75, y: 75, width: 625, ellipsize: false,
+       str: item_bonuses
+  save_pdf file: 'resources.pdf'
 end
