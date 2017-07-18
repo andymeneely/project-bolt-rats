@@ -6,8 +6,9 @@ Fabric | 0                                  |
    Oil | 1                                  |
 Barter | 3:1:1 Metal:Fabric:Oil             |
  Build | Strong Magnet                      |
+       | for 4 Metal                        |
 Battle | 6 HP. 2 ATK.                       |
-       | Insta-slaughter: Tote Bag          |
+       | Insta-slaughter: Use Tote Bag      |
   Card | 1                                  |
        ╰------------------------------------╯
        ╭------------------------------------╮
@@ -18,6 +19,7 @@ Fabric | 1                                  |
    Oil | 3                                  |
 Barter | 1:1:1 Metal:Fabric:Oil             |
  Build | Fireball                           |
+       | for 1 Fabric + 1 Oil               |
 Battle | 7 HP. 2 ATK.                       |
   Card | 2                                  |
        ╰------------------------------------╯
@@ -31,6 +33,7 @@ Barter | 1 Oil for 2HP                      |
        | or                                 |
        | 2 Fabric for 3 HP                  |
  Build | Bandages                           |
+       | for 1 Fabric + 1 Duct Tape         |
 Battle | 6 HP. 1 ATK.                       |
   Card | 3                                  |
        ╰------------------------------------╯
@@ -42,8 +45,9 @@ Fabric | 1                                  |
    Oil | 1                                  |
 Barter | 2:1 Fabric:Duct Tape               |
  Build | Tape Dispensor                     |
+       | for 2 Metal + 1 Oil                |
 Battle | 12 HP. 2 ATK.                      |
-       | Insta-slaughter: Bandages          |
+       | Insta-slaughter: Use Bandages      |
   Card | 4                                  |
        ╰------------------------------------╯
        ╭------------------------------------╮
@@ -55,6 +59,7 @@ Fabric | 4                                  |
 Barter | 4:3:2:1 for Metal:Fabric:Oil:Duct  |
        | Tape                               |
  Build | Strange Device                     |
+       | for 3 Metal + 1 Duct Tape          |
 Battle | 6 HP. 1 ATK.                       |
   Card | 5                                  |
        ╰------------------------------------╯
@@ -66,8 +71,10 @@ Fabric | 2                                  |
    Oil | 0                                  |
 Barter | 1 Oil for +1 ATK                   |
  Build | Whacking Plank                     |
+       | for 3 Metal and 1 Duct tape        |
 Battle | 5 HP. 3 ATK.                       |
-       | Insta-slaughter: Strong magnet     |
+       | Insta-slaughter: Use Strong Magnet |
+       |                                    |
   Card | 6                                  |
        ╰------------------------------------╯
        ╭------------------------------------╮
@@ -76,9 +83,10 @@ Battle | 5 HP. 3 ATK.                       |
  Metal | 1                                  |
 Fabric | 7                                  |
    Oil | 0                                  |
-Barter | 1:1 for Metal:Fabric               |
+Barter | 1:2 for Metal:Fabric               |
  Build | Tote Bag                           |
-Battle | 8 HP. 2 ATK.                       |
+       | for 3 Fabric                       |
+Battle | 18 HP. 2 ATK.                      |
   Card | 7                                  |
        ╰------------------------------------╯
        ╭------------------------------------╮
@@ -91,7 +99,8 @@ Barter | 4:1:1:1 Metal:Fabric:Oil:Duct Tape |
        |                                    |
  Build | Tape Dispensor                     |
 Battle | 3 HP. 3 ATK.                       |
-       | Insta-slaughter: Whacking Plank    |
+       | Insta-slaughter: Have Whacking Pla |
+       | nk                                 |
   Card | 1                                  |
        ╰------------------------------------╯
        ╭------------------------------------╮
@@ -100,10 +109,11 @@ Battle | 3 HP. 3 ATK.                       |
  Metal | 5                                  |
 Fabric | 5                                  |
    Oil | 5                                  |
-Barter |                                    |
- Build |                                    |
-Battle | 3 HP. 3 ATK. Insta-slaughter: Fire |
-       | ball                               |
+Barter | 1:1 Oil:Duct tape                  |
+ Build | Fireball                           |
+       | for 1 Fabric + 1 Oil               |
+Battle | 13 HP. 3 ATK.                      |
+       | Insta-slaughter: Fireball          |
   Card | 2                                  |
        ╰------------------------------------╯
        ╭------------------------------------╮
@@ -112,7 +122,7 @@ Battle | 3 HP. 3 ATK. Insta-slaughter: Fire |
  Metal | 5                                  |
 Fabric | 5                                  |
    Oil | 5                                  |
-Barter |                                    |
+Barter | 4 Metal for +1 ATK                 |
  Build |                                    |
 Battle |                                    |
   Card | 3                                  |

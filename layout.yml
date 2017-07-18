@@ -3,7 +3,8 @@ barter:
   x: 75
   width: 225
   hint: black
-  font: Serif 26
+  font: Serif
+  font_size: 26
 build:
   extends: barter
   x: += 225
