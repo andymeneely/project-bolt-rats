@@ -35,9 +35,7 @@ Squib::Deck.new(cards: 14) do
   text layout: :battle, str: 'Battle', valign: :top
 
   save format: :png
-  save format: :pdf, gap: 0, trim: 75, margin: '0.125in'
-
-  save_pdf file: 'creatures.pdf'
+  save_pdf gap: 0, trim: 37.5, file: 'creatures.pdf'
 end
 
 data = Squib.xlsx(file: 'game.xlsx', sheet: 1)
