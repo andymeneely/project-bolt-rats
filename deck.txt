@@ -6,9 +6,9 @@
        Oil | 1                                  |
     Barter | 3:1:1 Metal:Fabric:Oil             |
      Build | Strong Magnet                      |
-           | for 4 Metal                        |
+           | for 2 Metal                        |
     Battle | 12 HP. 2 ATK.                      |
-           |  ⃠ Use Tote Bag                    |
+           |  ⃠ Have Tote Bag                   |
       Card | 1                                  |
 Est. Value | 1.25                               |
            ╰------------------------------------╯
@@ -18,10 +18,12 @@ Est. Value | 1.25                               |
      Metal | 0                                  |
     Fabric | 1                                  |
        Oil | 3                                  |
-    Barter | 1:1:1 Metal:Fabric:Oil             |
+    Barter | 1:1 Metal:Oil                      |
+           | or                                 |
+           | 1:1 Fabric:Oil                     |
      Build | Fireball                           |
            | for 1 Fabric, 1 Oil                |
-    Battle | 7 HP. 2 ATK.                       |
+    Battle | 8 HP. 2 ATK.                       |
       Card | 2                                  |
 Est. Value | 1.8333333333333333                 |
            ╰------------------------------------╯
@@ -31,9 +33,7 @@ Est. Value | 1.8333333333333333                 |
      Metal | 2                                  |
     Fabric | 0                                  |
        Oil | 1                                  |
-    Barter | 1 Oil for 2HP                      |
-           | or                                 |
-           | 2 Fabric for 3 HP                  |
+    Barter | Recover 3/6/9 HP for 1/2/3 Oil     |
      Build | Bandages                           |
            | for 1 Fabric, 1 Duct Tape          |
     Battle | 6 HP. 1 ATK.                       |
@@ -62,7 +62,7 @@ Est. Value | 1.5833333333333333                 |
        Oil | 2                                  |
     Barter | 4:3:2:1 for Metal:Fabric:Oil:Duct  |
            | Tape                               |
-     Build | Strange Device                     |
+     Build | Oil Pan                            |
            | for 3 Metal, 1 Duct Tape           |
     Battle | 10 HP. 3 ATK.                      |
       Card | 5                                  |
@@ -88,7 +88,7 @@ Est. Value | 1.9166666666666665                 |
      Metal | 1                                  |
     Fabric | 7                                  |
        Oil | 0                                  |
-    Barter | 1:2 for Metal:Fabric               |
+    Barter | 1:2 Metal:Fabric                   |
      Build | Tote Bag                           |
            | for 3 Fabric                       |
     Battle | 15 HP. 2 ATK.                      |
@@ -132,7 +132,7 @@ Est. Value | 2.5                                |
        Oil | 1                                  |
     Barter | +1 ATK for 4 Metal                 |
      Build | Strong Magnet                      |
-           | for 3 Metal                        |
+           | for 2 Metal                        |
     Battle | 16 HP. 3 ATK.                      |
            |  ⃠ Have Strong Magnet              |
       Card | 3                                  |
@@ -161,7 +161,6 @@ Est. Value | 5.166666666666667                  |
      Build | 1/2 Tote Bags                      |
            | for 2/4 Fabric                     |
     Battle | 17 HP. 4 ATK.                      |
-           | ⃠ Have Strange Device              |
       Card | 5                                  |
 Est. Value | 4.5                                |
            ╰------------------------------------╯
@@ -186,7 +185,7 @@ Est. Value | 5.333333333333333                  |
     Fabric | 1                                  |
        Oil | 1                                  |
     Barter | +2 Metal and +2 Fabric for 2 Oil   |
-     Build | Strange Device                     |
+     Build | Oil Pan                            |
            | for 2 Metal, 1 Duct Tape           |
     Battle | 12 HP. 4 ATK                       |
            | ⃠ Have Whacking Plank              |

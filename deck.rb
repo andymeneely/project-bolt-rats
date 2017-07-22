@@ -47,11 +47,21 @@ Squib::Deck.new(cards: 2) do
   rect layout: :safe
   svg file: %w(resources.svg items.svg)
   item_bonuses = data.recipe.zip(data.bonus).map do |r,b|
-    "<span size='60000' rise='-10000'>▢</span><b>#{r}</b>. <i>#{b}</i>"
-  end.join("\n\n")
-  text range: 1, font: 'Archivo Narrow, Sans 29', markup: true,
-       spacing: '-5',
-       x: 75, y: 75, width: 625, ellipsize: false,
+    "<b>#{r}</b>. <i>#{b}</i> "
+  end.join("\n \n")
+  text range: 1, font: 'Archivo Narrow, Sans 32', markup: true,
+       spacing: -8,
+       x: 150, y: 75, width: 575, ellipsize: false,
        str: item_bonuses
+  0.upto(6).each do |n|
+    y = n * 125 + 85
+    y += 20 if n == 4 # Tape dispensor is weird
+    y += 10 if n == 5 # Tote bag is weird
+    rect x: 75, y: y, width: 65, height: 65,
+         radius: 15, range: 1, stroke_width: 4
+  end
+  text str: '<b>Zeppelin:</b>  8 Metal, 6 Fabric, 4 Oil, 3 Duct Tape',
+       font: 'Archivo Narrow, Sans 32', range: 1, markup: true,
+       x: 75, y: 950, width: 675, ellipsize: false, align: :center
   save_pdf file: 'resources.pdf'
 end
