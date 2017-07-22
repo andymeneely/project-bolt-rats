@@ -1,9 +1,9 @@
 group :default do
   guard 'rake', :task => 'default' do
-    watch %r{.*\.xlsx$}
-    watch %r{.*\.csv$}
-    watch %r{.*\.rb$}
+    watch %r{data/.*\.xlsx$}
+    watch %r{data/.*\.csv$}
+    watch %r{lib/.*\.rb$}
     watch %r{.*\.yml}
-    watch %r{.*\.svg$}
+    watch %r{img/.*\.svg$}
   end
 end
