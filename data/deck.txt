@@ -11,21 +11,27 @@
            |  ⃠ Have Tote Bag                   |
       Card | 1                                  |
 Est. Value | 1.25                               |
+     Notes | Metal dealer. Good to beat if you  |
+           | have a tote bag                    |
+      Back | Oil Nymph                          |
            ╰------------------------------------╯
            ╭------------------------------------╮
-      Name | Can of Lube                        |
+      Name | Friendly Can of Lube               |
       Size | Small                              |
      Metal | 0                                  |
     Fabric | 1                                  |
        Oil | 3                                  |
-    Barter | 1:1 Metal:Oil                      |
+    Barter | 3:2 Metal:Oil                      |
            | or                                 |
-           | 1:1 Fabric:Oil                     |
+           | 2:1 Fabric:Oil                     |
      Build | Fireball                           |
            | for 1 Fabric, 1 Oil                |
     Battle | 8 HP. 2 ATK.                       |
       Card | 2                                  |
 Est. Value | 1.8333333333333333                 |
+     Notes | Oil dealer, but you need a good vo |
+           | lume of Metal.                     |
+      Back | Petulant Tig Welder                |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Socket Wrench Puppy                |
@@ -33,12 +39,15 @@ Est. Value | 1.8333333333333333                 |
      Metal | 2                                  |
     Fabric | 0                                  |
        Oil | 1                                  |
-    Barter | Recover 3/6/9 HP for 1/2/3 Oil     |
+    Barter | Recover 3/6/10 HP for 1/2/3 Oil    |
      Build | Bandages                           |
            | for 1 Fabric, 1 Duct Tape          |
     Battle | 6 HP. 1 ATK.                       |
       Card | 3                                  |
 Est. Value | 1.0                                |
+     Notes | Healer. Doesn't give much but heal |
+           | ing is awesome                     |
+      Back | Sewing Machine                     |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Minor Ductwork                     |
@@ -46,16 +55,20 @@ Est. Value | 1.0                                |
      Metal | 3                                  |
     Fabric | 1                                  |
        Oil | 1                                  |
-    Barter | 2:1 Fabric:Duct Tape               |
+    Barter | +1 Duct Tape for 3 Fabric          |
+           | or                                 |
+           | +2 Duct Tape for 4 Fabric          |
      Build | Tape Dispensor                     |
            | for 3 Metal, 1 Oil                 |
     Battle | 14 HP. 2 ATK.                      |
            |  ⃠ Use Bandages                    |
       Card | 4                                  |
 Est. Value | 1.5833333333333333                 |
+     Notes | Duct tape dealer.                  |
+      Back | Major Ductwork                     |
            ╰------------------------------------╯
            ╭------------------------------------╮
-      Name | Rusty Toolbox                      |
+      Name | Rusty the Toolbox                  |
       Size | Small                              |
      Metal | 4                                  |
     Fabric | 4                                  |
@@ -67,6 +80,9 @@ Est. Value | 1.5833333333333333                 |
     Battle | 10 HP. 3 ATK.                      |
       Card | 5                                  |
 Est. Value | 3.333333333333333                  |
+     Notes | General store. Everything is balan |
+           | ced against him.                   |
+      Back | The Crusher                        |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Tetanus Worms                      |
@@ -81,6 +97,8 @@ Est. Value | 3.333333333333333                  |
            |  ⃠ Have Strong Magnet              |
       Card | 6                                  |
 Est. Value | 1.9166666666666665                 |
+     Notes | Trainer                            |
+      Back | Tap Spider                         |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Curtain Ghost                      |
@@ -88,12 +106,14 @@ Est. Value | 1.9166666666666665                 |
      Metal | 1                                  |
     Fabric | 7                                  |
        Oil | 0                                  |
-    Barter | 1:2 Metal:Fabric                   |
+    Barter | 2:3 Metal:Fabric                   |
      Build | Tote Bag                           |
            | for 3 Fabric                       |
     Battle | 15 HP. 2 ATK.                      |
       Card | 7                                  |
 Est. Value | 2.5833333333333335                 |
+     Notes | Fabric dealer. Tote bags.          |
+      Back | Sprocket Bats                      |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Sprocket Bats                      |
@@ -101,14 +121,16 @@ Est. Value | 2.5833333333333335                 |
      Metal | 5                                  |
     Fabric | 5                                  |
        Oil | 5                                  |
-    Barter | 4:1:1:1 Metal:Fabric:Oil:Duct Tape |
-           |                                    |
+    Barter | 5:3 Metal:Fabric                   |
      Build | Tape Dispensor                     |
            | for 2 Metal, 1 Oil                 |
-    Battle | 3 HP. 3 ATK.                       |
+    Battle | 15 HP. 3 ATK.                      |
            |  ⃠ Use Tote Bag                    |
-      Card | 1                                  |
+      Card | 7                                  |
 Est. Value | 5.416666666666667                  |
+     Notes | Metal dealer, but you need lots of |
+           |  fabric. Or lots of Metal.         |
+      Back | Curtain Ghost                      |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Oil Nymph                          |
@@ -121,8 +143,10 @@ Est. Value | 5.416666666666667                  |
            | for 1 Fabric, 1 Oil                |
     Battle | 13 HP. 3 ATK.                      |
            |  ⃠ Use Fireball                    |
-      Card | 2                                  |
+      Card | 1                                  |
 Est. Value | 2.5                                |
+     Notes | Duct tape dealer, but with oil.    |
+      Back | Bolt Rats                          |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Petulant Tig Welder                |
@@ -135,8 +159,11 @@ Est. Value | 2.5                                |
            | for 2 Metal                        |
     Battle | 16 HP. 3 ATK.                      |
            |  ⃠ Have Strong Magnet              |
-      Card | 3                                  |
+      Card | 2                                  |
 Est. Value | 2.5833333333333335                 |
+     Notes | Attack creature, but now with meta |
+           | l.                                 |
+      Back | Friendly Can of Lube               |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Major Ductwork                     |
@@ -144,12 +171,15 @@ Est. Value | 2.5833333333333335                 |
      Metal | 8                                  |
     Fabric | 5                                  |
        Oil | 3                                  |
-    Barter | 3:1 Metal:Duct Tape                |
+    Barter | 3:2 Fabric:Duct Tape               |
      Build | Bandages                           |
            | for 1 Fabric, 1 Duct Tape          |
     Battle | 20 HP. 4 ATK.                      |
       Card | 4                                  |
 Est. Value | 5.166666666666667                  |
+     Notes | Duct tape dealer, repeatable but n |
+           | ot quite as good. Tons of goods.   |
+      Back | Minor Ductwork                     |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Sewing Machine                     |
@@ -161,8 +191,11 @@ Est. Value | 5.166666666666667                  |
      Build | 1/2 Tote Bags                      |
            | for 2/4 Fabric                     |
     Battle | 17 HP. 4 ATK.                      |
-      Card | 5                                  |
+      Card | 3                                  |
 Est. Value | 4.5                                |
+     Notes | Fabric dealer. Tote bags. (Better  |
+           | version of Curtain Ghost)          |
+      Back | Socket Wrench Puppy                |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | The Crusher                        |
@@ -175,8 +208,12 @@ Est. Value | 4.5                                |
      Build | Whacking Plank                     |
            | for 3 Metal, 1 Duct tape           |
     Battle | 20 HP. 4 ATK.                      |
-      Card | 6                                  |
+      Card | 5                                  |
 Est. Value | 5.333333333333333                  |
+     Notes | Tool check, instead of general sto |
+           | re. Requires duct tape or tool to  |
+           | pass!!                             |
+      Back | Rusty the Toolbox                  |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Tap Spider                         |
@@ -187,8 +224,10 @@ Est. Value | 5.333333333333333                  |
     Barter | +2 Metal and +2 Fabric for 2 Oil   |
      Build | Oil Pan                            |
            | for 2 Metal, 1 Duct Tape           |
-    Battle | 12 HP. 4 ATK                       |
+    Battle | 11 HP. 4 ATK                       |
            | ⃠ Have Whacking Plank              |
-      Card | 7                                  |
+      Card | 6                                  |
 Est. Value | 2.083333333333333                  |
+     Notes | Oil to both Metal and Fabric       |
+      Back | Tetanus Worms                      |
            ╰------------------------------------╯
