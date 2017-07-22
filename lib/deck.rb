@@ -1,5 +1,6 @@
 require 'squib'
 require_relative './helpers'
+require_relative './version'
 
 data = Squib.xlsx(file: 'data/game.xlsx', sheet: 0)  do |col, item|
   newlineate(col, item)
@@ -8,7 +9,7 @@ end
 File.open('data/deck.txt', 'w+') { |f| f.write data.to_pretty_text }
 
 Squib::Deck.new(cards: 14) do
-  use_layout file: ['fantasy.yml', 'layout.yml']
+  use_layout file: 'layout.yml'
   background color: :white
   rect layout: :cut
   rect layout: :safe
@@ -22,20 +23,22 @@ Squib::Deck.new(cards: 14) do
     str << "#{o}💧 "  unless o.to_i == 0
     str
   end
-  text layout: :tr, str: composition,
+  text layout: :type_right, str: composition,
        font: 'Sans, Segoe UI Symbol, Dingbats Bold 32' , align: :right, x: 425, width: 325
 
   text layout: :barter, str: data.barter
-  text layout: :barter, str: 'Barter', valign: :top
+  # text layout: :barter, str: 'Barter', valign: :top
 
   text layout: :build, str: data.build
-  text layout: :build, str: 'Build', valign: :top
+  # text layout: :build, str: 'Build', valign: :top
 
   text layout: :battle, str: data.battle
-  text layout: :battle, str: 'Battle', valign: :top
+  # text layout: :battle, str: 'Battle', valign: :top
+  text layout: :version, str: BoltRats::VERSION
 
   save format: :png
   save_pdf gap: 0, trim: 37.5, file: 'creatures.pdf'
+  save_png
 end
 
 data = Squib.xlsx(file: 'data/game.xlsx', sheet: 1)
@@ -63,5 +66,5 @@ Squib::Deck.new(cards: 2) do
   text str: '<b>Zeppelin:</b>  8 Metal, 6 Fabric, 4 Oil, 3 Duct Tape',
        font: 'Archivo Narrow, Sans 32', range: 1, markup: true,
        x: 75, y: 950, width: 675, ellipsize: false, align: :center
-  save_pdf file: 'resources.pdf'
+  save_pdf file: 'resources.pdf', trim: 37.5
 end

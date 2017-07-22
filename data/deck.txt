@@ -22,8 +22,7 @@ Est. Value | 1.25                               |
     Fabric | 1                                  |
        Oil | 3                                  |
     Barter | 3:2 Metal:Oil                      |
-           | or                                 |
-           | 2:1 Fabric:Oil                     |
+           | or 2:1 Fabric:Oil                  |
      Build | Fireball                           |
            | for 1 Fabric, 1 Oil                |
     Battle | 8 HP. 2 ATK.                       |
@@ -56,8 +55,7 @@ Est. Value | 1.0                                |
     Fabric | 1                                  |
        Oil | 1                                  |
     Barter | +1 Duct Tape for 3 Fabric          |
-           | or                                 |
-           | +2 Duct Tape for 4 Fabric          |
+           | or +2 Duct Tape for 4 Fabric       |
      Build | Tape Dispensor                     |
            | for 3 Metal, 1 Oil                 |
     Battle | 14 HP. 2 ATK.                      |

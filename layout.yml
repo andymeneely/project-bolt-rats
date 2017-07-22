@@ -1,16 +1,41 @@
 barter:
-  extends: description
+  # extends: description
   x: 75
-  width: 225
+  y: 700
+  width: 675
+  height: 120
   hint: black
   font: Serif, Segoe UI Symbol
   font_size: 26
+  valign: middle
+  ellipsize: false
 build:
   extends: barter
-  x: += 225
+  y: += 120
+  align: center
 battle:
-  extends: barter
-  x: += 450
+  extends: build
+  y: += 120
+  align: right
+
+title:
+  x: 90
+  y: 90
+  width: 500
+  height: 50
+
+type:
+  x: 90
+  y: 660
+  width: 500
+  height: 50
+
+type_right:
+  x: 595
+  y: 650
+  width: 135
+  height: 50
+  align: right
 
 # The "cut line", without rounded corners
 cut:
@@ -27,3 +52,8 @@ safe:
   height: 975
   radius: 16
   dash: 3 3
+
+version:
+  font: Sans 16
+  x: 725
+  y: 45
