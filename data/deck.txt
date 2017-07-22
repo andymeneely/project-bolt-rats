@@ -6,7 +6,7 @@
        Oil | 1                                  |
     Barter | 3:1:1 Metal:Fabric:Oil             |
      Build | Strong Magnet                      |
-           | for 2 Metal                        |
+           | for 3 Metal                        |
     Battle | 12 HP. 2 ATK.                      |
            |  ⃠ Have Tote Bag                   |
       Card | 1                                  |
