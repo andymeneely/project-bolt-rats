@@ -12,14 +12,14 @@
 #text_hint: '#F00'
 
 # Show progress bars on the command line for potentially long-running operations
-#progress_bars: true
+progress_bars: true
 
 #Enable some custom colors that can be used in any color
 #custom_colors:
 #  foo: '#abc'
 
 #For reading image file command (e.g. png and svg), read from this directory instead
-#img_dir: img-color
+img_dir: img
 #img_dir: img-bw
 
 # Use a SVG cairo back end, instead of an in-memory buffer

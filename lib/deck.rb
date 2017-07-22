@@ -1,11 +1,11 @@
 require 'squib'
 require_relative './helpers'
 
-data = Squib.xlsx(file: 'game.xlsx', sheet: 0)  do |col, item|
+data = Squib.xlsx(file: 'data/game.xlsx', sheet: 0)  do |col, item|
   newlineate(col, item)
 end
 
-File.open('deck.txt', 'w+') { |f| f.write data.to_pretty_text }
+File.open('data/deck.txt', 'w+') { |f| f.write data.to_pretty_text }
 
 Squib::Deck.new(cards: 14) do
   use_layout file: ['fantasy.yml', 'layout.yml']
@@ -38,7 +38,7 @@ Squib::Deck.new(cards: 14) do
   save_pdf gap: 0, trim: 37.5, file: 'creatures.pdf'
 end
 
-data = Squib.xlsx(file: 'game.xlsx', sheet: 1)
+data = Squib.xlsx(file: 'data/game.xlsx', sheet: 1)
 
 Squib::Deck.new(cards: 2) do
   use_layout file: ['fantasy.yml', 'layout.yml']
