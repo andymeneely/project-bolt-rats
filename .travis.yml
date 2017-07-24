@@ -3,4 +3,5 @@ sudo: required
 rvm:
 - 2.4.1
 script:
+- rm Gemfile.lock
 - bundle exec rake
