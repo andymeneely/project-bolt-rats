@@ -4,3 +4,13 @@ rvm:
 - 2.4.1
 script:
 - bundle exec rake
+deploy:
+  provider: releases
+  api_key:
+    secure: ZmhrSjHUKDLu0PzpoKqBauQutBkmWWuFCN/H/bvO0wB2vRb2sfizxfGGQv97b1d9075H/Z4t3gjSRFjm/jjfyrt2EO2OYcIW9DNohr6+2nN6kP6VnxroWQZVIqMaU5sPJGOk3B/X/3TeTiW/1F1QYDCH6Nm/kc4PqpdUesQfgLCgcFFI3tt2Jivd+2dIVP1VyRYejY5f3dVugI3q1NG539Jd4StyH1QLBBGAbCn08hXM8HZuPOE5ogiiVZGuhCfwFyX7q7Q8VcSd4/k9DKkoCjJtyrOjB1S2w6DURAL0HbP6DMnIl3zG3T2hAOsknDPcV1ihvd9r5vQZB+IhL5iE/VnKhUKsuBnMC7vFku1i3jOwQtsfynUeRJPE5zkej+PKfIMZppwYam53ykLHNgizMsRVUQmnJDuwQ7VmurxEVRdNIZIdD2Ciz57Nz1cIUDkwR3lM6R9Q9r1AAUVw1PKHPdaV6djOSmz8SvYQrSl6vjnbLaw3jXZQ1H5HKCCb7SvVezmXw6R7+Dfdi0VE3K17F4GH2cIKdUh/nbm/QhipP2CbcviI8w9HKmqXxttbzynNhwacGADiKy5u9Uzjg5nNMNdlRHk3GWVMif1Xj3zgOs6k+QBQC5fai9oVz1Ndvtb0UkkL6Yw6HJbk+0JlF9tKcwcXtfcYbmgqycjImjWc+pk=
+  file:
+    - _output/creatures.pdf
+    - _output/resources.pdf
+  on:
+    repo: andymeneely/project-bolt-rats
+    tags: true
