@@ -4,3 +4,4 @@ _output/*.pdf
 .DS_Store
 .byebug_history
 Gemfile.lock
+~*.tmp
