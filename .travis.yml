@@ -3,6 +3,10 @@ sudo: required
 rvm:
 - 2.4.1
 script:
+- mkdir ~/.fonts
+- cp fonts/*.otf ~/.fonts
+- cp fonts/*.ttf ~/.fonts
+- fc-cache -f -v
 - bundle exec rake
 deploy:
   provider: releases

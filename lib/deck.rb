@@ -24,7 +24,7 @@ Squib::Deck.new(cards: 14) do
     str
   end
   text layout: :type_right, str: composition,
-       font: 'Sans, Segoe UI Symbol, Dingbats Bold 32' , align: :right, x: 425, width: 325
+       font: 'Sans, Segoe UI Symbol Bold 32' , align: :right, x: 425, width: 325
 
   text layout: :barter, str: data.barter
   # text layout: :barter, str: 'Barter', valign: :top
