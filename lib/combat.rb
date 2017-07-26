@@ -45,4 +45,19 @@ class Combat
     return false
   end
 
+  def boss_win?(my_hp, my_atk, boss_hp)
+    while my_hp > 0
+      next_hit = attack(boss_hp)
+      next_hit += my_atk if next_hit > 0 # MISS is always a MISS
+      boss_hp -= next_hit
+      return true if boss_hp <= 0
+      if boss_hp > 12
+        my_hp -= 3 
+      else
+        my_hp -= 5
+      end
+    end
+    return false
+  end
+
 end

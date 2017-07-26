@@ -115,4 +115,5 @@ describe Combat do
       expect(win).to be true
     end
   end
+
 end
