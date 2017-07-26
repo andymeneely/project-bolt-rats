@@ -1,3 +1,3 @@
 module BoltRats
-  VERSION = 'v5.0a'
+  VERSION = 'v5.0'
 end
