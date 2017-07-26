@@ -1,18 +1,19 @@
            ╭------------------------------------╮
       Name | Bolt Rats                          |
       Size | Small                              |
-     Metal | 3                                  |
+     Metal | 5                                  |
     Fabric | 0                                  |
        Oil | 1                                  |
-    Barter | 3:1:1 Metal:Fabric:Oil             |
+    Barter | 3:2 Metal:Fabric                   |
+           | or 3:1 Metal:Oil                   |
      Build | Strong Magnet                      |
            | for 3 Metal                        |
     Battle | 12 HP. 2 ATK.                      |
            |  ⃠ Have Tote Bag                   |
       Card | 1                                  |
-Est. Value | 1.25                               |
+Est. Value | 1.75                               |
      Notes | Metal dealer. Good to beat if you  |
-           | have a tote bag                    |
+           | have a tote bag.                   |
       Back | Oil Nymph                          |
            ╰------------------------------------╯
            ╭------------------------------------╮
@@ -46,22 +47,22 @@ Est. Value | 1.8333333333333333                 |
 Est. Value | 1.0                                |
      Notes | Healer. Doesn't give much but heal |
            | ing is awesome                     |
-      Back | Sewing Machine                     |
+      Back | Jacket Wraith                      |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Minor Ductwork                     |
       Size | Small                              |
      Metal | 3                                  |
     Fabric | 1                                  |
-       Oil | 1                                  |
+       Oil | 2                                  |
     Barter | +1 Duct Tape for 3 Fabric          |
            | or +2 Duct Tape for 4 Fabric       |
      Build | Tape Dispensor                     |
            | for 3 Metal, 1 Oil                 |
     Battle | 14 HP. 2 ATK.                      |
-           |  ⃠ Use Bandages                    |
+           |  ⃠ Ditch Bandages                  |
       Card | 4                                  |
-Est. Value | 1.5833333333333333                 |
+Est. Value | 2.083333333333333                  |
      Notes | Duct tape dealer.                  |
       Back | Major Ductwork                     |
            ╰------------------------------------╯
@@ -86,20 +87,20 @@ Est. Value | 3.333333333333333                  |
       Name | Tetanus Worms                      |
       Size | Small                              |
      Metal | 5                                  |
-    Fabric | 2                                  |
-       Oil | 0                                  |
+    Fabric | 0                                  |
+       Oil | 2                                  |
     Barter | +1 ATK for 1 Oil                   |
      Build | Whacking Plank                     |
            | for 3 Metal, 1 Duct tape           |
     Battle | 8 HP. 3 ATK.                       |
            |  ⃠ Have Strong Magnet              |
       Card | 6                                  |
-Est. Value | 1.9166666666666665                 |
+Est. Value | 2.25                               |
      Notes | Trainer                            |
       Back | Tap Spider                         |
            ╰------------------------------------╯
            ╭------------------------------------╮
-      Name | Curtain Ghost                      |
+      Name | Ugly Sweater Ghost                 |
       Size | Small                              |
      Metal | 1                                  |
     Fabric | 7                                  |
@@ -111,10 +112,10 @@ Est. Value | 1.9166666666666665                 |
       Card | 7                                  |
 Est. Value | 2.5833333333333335                 |
      Notes | Fabric dealer. Tote bags.          |
-      Back | Sprocket Bats                      |
+      Back | Sprocket Snake                     |
            ╰------------------------------------╯
            ╭------------------------------------╮
-      Name | Sprocket Bats                      |
+      Name | Sprocket Snake                     |
       Size | Big                                |
      Metal | 5                                  |
     Fabric | 5                                  |
@@ -123,12 +124,12 @@ Est. Value | 2.5833333333333335                 |
      Build | Tape Dispensor                     |
            | for 2 Metal, 1 Oil                 |
     Battle | 15 HP. 3 ATK.                      |
-           |  ⃠ Use Tote Bag                    |
+           |  ⃠ Ditch Tote Bag                  |
       Card | 7                                  |
 Est. Value | 5.416666666666667                  |
      Notes | Metal dealer, but you need lots of |
            |  fabric. Or lots of Metal.         |
-      Back | Curtain Ghost                      |
+      Back | Ugly Sweater Ghost                 |
            ╰------------------------------------╯
            ╭------------------------------------╮
       Name | Oil Nymph                          |
@@ -140,7 +141,7 @@ Est. Value | 5.416666666666667                  |
      Build | Fireball                           |
            | for 1 Fabric, 1 Oil                |
     Battle | 13 HP. 3 ATK.                      |
-           |  ⃠ Use Fireball                    |
+           |  ⃠ Ditch Fireball                  |
       Card | 1                                  |
 Est. Value | 2.5                                |
      Notes | Duct tape dealer, but with oil.    |
@@ -180,7 +181,7 @@ Est. Value | 5.166666666666667                  |
       Back | Minor Ductwork                     |
            ╰------------------------------------╯
            ╭------------------------------------╮
-      Name | Sewing Machine                     |
+      Name | Jacket Wraith                      |
       Size | Big                                |
      Metal | 6                                  |
     Fabric | 6                                  |
@@ -206,6 +207,8 @@ Est. Value | 4.5                                |
      Build | Whacking Plank                     |
            | for 3 Metal, 1 Duct tape           |
     Battle | 20 HP. 4 ATK.                      |
+           | Creature has 15 HP if you have Str |
+           | ong Magnet                         |
       Card | 5                                  |
 Est. Value | 5.333333333333333                  |
      Notes | Tool check, instead of general sto |
