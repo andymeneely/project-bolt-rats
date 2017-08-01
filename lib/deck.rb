@@ -48,12 +48,12 @@ File.open('data/tools.txt', 'w+') do |f|
           join("\n\n")
 end
 
-Squib::Deck.new(cards: 2) do
+Squib::Deck.new(cards: 3) do
   use_layout file: ['fantasy.yml', 'layout.yml']
   background color: :white
   rect layout: :cut
   rect layout: :safe
-  svg file: %w(resources.svg items.svg)
+  svg file: %w(resources.svg items.svg boss.svg)
   item_bonuses = data.recipe.zip(data.bonus).map do |r,b|
     "<b>#{r}</b>. <i>#{b}</i> "
   end.join("\n \n")
@@ -63,8 +63,9 @@ Squib::Deck.new(cards: 2) do
        str: item_bonuses
   0.upto(6).each do |n|
     y = n * 125 + 85
-    y += 20 if n == 4 # Tape dispensor is weird
-    y += 10 if n == 5 # Tote bag is weird
+    # y += 10 if n == 4 # Tape dispensor adjustment
+    y -= 15 if n == 5 # Tote bag adjustment
+    y -= 30 if n == 6 # Whacking plank adjustment
     rect x: 75, y: y, width: 65, height: 65,
          radius: 15, range: 1, stroke_width: 4
   end
