@@ -1,17 +1,17 @@
 Bandages
-Recover 3 HP for 1 Oil, any time
+Recover 3 HP for 1 Oil, or 5 HP for 1 Duct Tape, any time
 
 Fireball
 Use in battle for -5 Creature HP
 
-Oil Pan
-Gain +1 Oil after each battle
+Oil Rag
+Gain +1 Oil on any Barter that involves Oil.
 
 Strong Magnet
 Gain 2 Metal at first encounter each round
 
 Tape Dispensor
-May convert 3/2/1 Metal/Fabric/Oil to 1 Duct Tape any time
+Gain 1 Duct Tape at first encounter each round
 
 Tote Bag
 Use for +1 Carry
