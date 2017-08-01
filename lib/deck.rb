@@ -43,6 +43,11 @@ end
 
 data = Squib.xlsx(file: 'data/game.xlsx', sheet: 1)
 
+File.open('data/tools.txt', 'w+') do |f|
+  f.write data.recipe.zip(data.bonus).map { |r,b| "#{r}\n#{b}" }.
+          join("\n\n")
+end
+
 Squib::Deck.new(cards: 2) do
   use_layout file: ['fantasy.yml', 'layout.yml']
   background color: :white

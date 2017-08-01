@@ -1,0 +1,20 @@
+Bandages
+Recover 3 HP for 1 Oil, any time
+
+Fireball
+Use in battle for -5 Creature HP
+
+Oil Pan
+Gain +1 Oil after each battle
+
+Strong Magnet
+Gain 2 Metal at first encounter each round
+
+Tape Dispensor
+May convert 3/2/1 Metal/Fabric/Oil to 1 Duct Tape any time
+
+Tote Bag
+Use for +1 Carry
+
+Whacking Plank
+After each battle, may spend 1 Metal for +1 ATK
