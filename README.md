@@ -6,6 +6,13 @@ Escape from Scrapland is a solo roguelike nanogame with 9 cards, 1 die, and some
 
 The process of making this game is being documented for users of [Squib](http://squib.rocks).
 
+# Get the latest
+
+  * Download `rules.docx`, `creatures.pdf`, and `resources.pdf` from [latest GitHub releases](https://github.com/andymeneely/project-bolt-rats/releases/latest)
+  * Print them out. Be sure to turn off page scaling
+  * Cut them up
+  * Put them in 2.5x3.5 sleeves. Pay close attention to what card should be on the back of what. You can see that in the [game data](https://github.com/andymeneely/project-bolt-rats/blob/v6.0/data/deck.txt)
+
 # Vlog
 
 Check out [the entire Vlog](https://www.youtube.com/playlist?list=PLLcm4ZswgXFYk6KKW_ISd8Kf9UGTV9Cfj)!
