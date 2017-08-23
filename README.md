@@ -21,6 +21,14 @@ Some videos are just me talking about my process, others are screen captures of 
 
 # Versions
 
+## v6.1 / 2017-08-23
+
+* Added a `rake` task to build sheets compatible with Tabletop Simulator
+* Noted the back of the card for easier sleeving
+* Video: [Letting it Ripen](https://www.youtube.com/watch?v=vBz3Pyec_HU&index=10&list=PLLcm4ZswgXFYk6KKW_ISd8Kf9UGTV9Cfj)
+
+No changes in rules or components.
+
 ## v6.0
 
 * Added Round timer
