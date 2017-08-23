@@ -35,10 +35,14 @@ Squib::Deck.new(cards: 14) do
   text layout: :battle, str: data.battle
   # text layout: :battle, str: 'Battle', valign: :top
   text layout: :version, str: BoltRats::VERSION
+  text layout: :back, str: data.back.map {|b| "Back: #{b}" }
 
-  save format: :png
   save_pdf gap: 0, trim: 37.5, file: 'creatures.pdf'
-  save_png
+  png_prefixes = data.card.zip(data.size).map do |c,s|
+    "creature_#{s}_#{c}_".downcase
+  end
+  save_png prefix: png_prefixes
+  save_sheet prefix: 'creature_sheet_', rows: 2, cols: 4
 end
 
 data = Squib.xlsx(file: 'data/game.xlsx', sheet: 1)
@@ -73,4 +77,5 @@ Squib::Deck.new(cards: 3) do
        font: 'Archivo Narrow, Sans 32', range: 1, markup: true,
        x: 75, y: 950, width: 675, ellipsize: false, align: :center
   save_pdf file: 'resources.pdf', trim: 37.5
+  save_png prefix: 'resource_'
 end

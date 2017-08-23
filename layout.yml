@@ -57,3 +57,8 @@ version:
   font: Sans 16
   x: 725
   y: 45
+
+back:
+  font: Sans 16
+  x: 45
+  y: 1060
