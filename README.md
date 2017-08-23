@@ -11,7 +11,7 @@ The process of making this game is being documented for users of [Squib](http://
   * Download `rules.docx`, `creatures.pdf`, and `resources.pdf` from [latest GitHub releases](https://github.com/andymeneely/project-bolt-rats/releases/latest)
   * Print them out. Be sure to turn off page scaling
   * Cut them up
-  * Put them in 2.5x3.5 sleeves. Pay close attention to what card should be on the back of what. You can see that in the [game data](https://github.com/andymeneely/project-bolt-rats/blob/v6.0/data/deck.txt)
+  * Put them in 2.5x3.5 sleeves. Pay close attention to what card should be on the back of what (small text in the corner). 
 
 # Vlog
 
@@ -28,6 +28,9 @@ Some videos are just me talking about my process, others are screen captures of 
 * Video: [Letting it Ripen](https://www.youtube.com/watch?v=vBz3Pyec_HU&index=10&list=PLLcm4ZswgXFYk6KKW_ISd8Kf9UGTV9Cfj)
 
 No changes in rules or components.
+
+
+See full changes: [from 6.0 to 6.1](https://github.com/andymeneely/project-bolt-rats/compare/v6.0...v6.1)
 
 ## v6.0
 
