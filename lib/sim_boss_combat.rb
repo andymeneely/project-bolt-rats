@@ -8,7 +8,7 @@ CSV.open("data/combat_boss_sim_results.csv", 'w+') do |csv|
   csv << %w(my_hp my_atk boss_hp win%)
   1.upto(20).each do |my_hp|
     0.upto(4).each do |my_atk|
-      20.upto(30).each do |boss_hp|
+      1.upto(30).each do |boss_hp|
           wins = 0
           n.times do
             wins +=1 if combat.boss_win?(my_hp, my_atk, boss_hp)
