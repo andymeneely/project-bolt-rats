@@ -29,6 +29,8 @@ Some videos are just me talking about my process, others are screen captures of 
 * Ugly Sweater Ghost gives a nice defeat bonus (let's see more Sprocket Snake!)
 * Ugly Sweater Ghost got a Barter nerf too
 
+See full changes: [from 6.1 to 7.0](https://github.com/andymeneely/project-bolt-rats/compare/v6.1...v7.0)
+
 ## v6.1 / 2017-08-23
 
 * Added a `rake` task to build sheets compatible with Tabletop Simulator
