@@ -11,7 +11,7 @@ The process of making this game is being documented for users of [Squib](http://
   * Download `rules.docx`, `creatures.pdf`, and `resources.pdf` from [latest GitHub releases](https://github.com/andymeneely/project-bolt-rats/releases/latest)
   * Print them out. Be sure to turn off page scaling
   * Cut them up
-  * Put them in 2.5x3.5 sleeves. Pay close attention to what card should be on the back of what (small text in the corner). 
+  * Put them in 2.5x3.5 sleeves. Pay close attention to what card should be on the back of what (small text in the corner).
 
 # Vlog
 
@@ -20,6 +20,14 @@ Check out [the entire Vlog](https://www.youtube.com/playlist?list=PLLcm4ZswgXFYk
 Some videos are just me talking about my process, others are screen captures of walking through the entire prototyping process.
 
 # Versions
+
+## v7.0 / 2017-09-01
+
+* Balance changes! We're starting to zero in on a stable game here.
+* Tape Dispensor is actually useful now!
+* Oil Rag is easier to get, which makes Minor Ductwork a tad less ominous
+* Ugly Sweater Ghost gives a nice defeat bonus (let's see more Sprocket Snake!)
+* Ugly Sweater Ghost got a Barter nerf too
 
 ## v6.1 / 2017-08-23
 
