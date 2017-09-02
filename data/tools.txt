@@ -11,7 +11,7 @@ Strong Magnet
 Gain 2 Metal at first encounter each round
 
 Tape Dispensor
-Gain 1 Duct Tape at first encounter each round
+Gain 2 Metal, 2 Fabric,  and 1 Oil for 1 Duct Tape, any time
 
 Tote Bag
 Use for +1 Carry

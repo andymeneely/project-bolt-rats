@@ -4,6 +4,8 @@
      Metal | 5                                  |
     Fabric | 0                                  |
        Oil | 1                                  |
+        HP | 12                                 |
+       ATK | 2                                  |
     Barter | 3:2 Metal:Fabric                   |
            | or 3:1 Metal:Oil                   |
      Build | Strong Magnet                      |
@@ -22,6 +24,8 @@ Est. Value | 1.75                               |
      Metal | 2                                  |
     Fabric | 0                                  |
        Oil | 3                                  |
+        HP | 8                                  |
+       ATK | 2                                  |
     Barter | 3:2 Metal:Oil                      |
            | or 2:1 Fabric:Oil                  |
      Build | Fireball                           |
@@ -39,6 +43,8 @@ Est. Value | 2.0                                |
      Metal | 2                                  |
     Fabric | 0                                  |
        Oil | 1                                  |
+        HP | 6                                  |
+       ATK | 1                                  |
     Barter | Recover 3/6/10 HP for 1/2/3 Oil    |
      Build | Bandages                           |
            | for 1 Fabric, 1 Duct Tape          |
@@ -55,10 +61,12 @@ Est. Value | 1.0                                |
      Metal | 3                                  |
     Fabric | 3                                  |
        Oil | 1                                  |
+        HP | 14                                 |
+       ATK | 2                                  |
     Barter | +1 Duct Tape for 3 Fabric          |
            | or +2 Duct Tape for 4 Fabric       |
      Build | Tape Dispensor                     |
-           | for 3 Metal, 1 Oil                 |
+           | for 2 Metal, 1 Oil                 |
     Battle | 14 HP. 2 ATK.                      |
            |  ⃠ Ditch Bandages                  |
       Card | 4                                  |
@@ -72,10 +80,12 @@ Est. Value | 2.25                               |
      Metal | 4                                  |
     Fabric | 4                                  |
        Oil | 2                                  |
+        HP | 10                                 |
+       ATK | 3                                  |
     Barter | 4:3:2:1 for Metal:Fabric:Oil:Duct  |
            | Tape                               |
-     Build | Oil Pan                            |
-           | for 3 Metal, 1 Duct Tape           |
+     Build | Oil Rag                            |
+           | for 3 Fabric                       |
     Battle | 10 HP. 3 ATK.                      |
            | +1 Carry upon Defeat               |
       Card | 5                                  |
@@ -92,6 +102,8 @@ Est. Value | 3.333333333333333                  |
      Metal | 5                                  |
     Fabric | 0                                  |
        Oil | 2                                  |
+        HP | 8                                  |
+       ATK | 4                                  |
     Barter | +1 ATK for 1 Oil                   |
      Build | Whacking Plank                     |
            | for 2 Metal, 1 Fabric              |
@@ -108,10 +120,13 @@ Est. Value | 2.25                               |
      Metal | 1                                  |
     Fabric | 7                                  |
        Oil | 0                                  |
-    Barter | 2:3 Metal:Fabric                   |
+        HP | 15                                 |
+       ATK | 2                                  |
+    Barter | 2:2 Metal:Fabric                   |
      Build | Tote Bag                           |
            | for 3 Fabric                       |
     Battle | 15 HP. 2 ATK.                      |
+           | +3 HP upon Defeat                  |
       Card | 7                                  |
 Est. Value | 2.5833333333333335                 |
      Notes | Fabric dealer. Tote bags.          |
@@ -123,6 +138,8 @@ Est. Value | 2.5833333333333335                 |
      Metal | 5                                  |
     Fabric | 5                                  |
        Oil | 5                                  |
+        HP | 15                                 |
+       ATK | 3                                  |
     Barter | 5:3 Metal:Fabric                   |
      Build | Tape Dispensor                     |
            | for 2 Metal, 1 Oil                 |
@@ -140,6 +157,8 @@ Est. Value | 5.416666666666667                  |
      Metal | 0                                  |
     Fabric | 0                                  |
        Oil | 5                                  |
+        HP | 13                                 |
+       ATK | 3                                  |
     Barter | 1:1 Oil:Duct Tape                  |
      Build | Fireball                           |
            | for 1 Fabric, 1 Oil                |
@@ -156,6 +175,8 @@ Est. Value | 2.5                                |
      Metal | 7                                  |
     Fabric | 1                                  |
        Oil | 1                                  |
+        HP | 16                                 |
+       ATK | 3                                  |
     Barter | +1 ATK for 4 Metal                 |
      Build | Strong Magnet                      |
            | for 2 Metal                        |
@@ -173,6 +194,8 @@ Est. Value | 2.5833333333333335                 |
      Metal | 8                                  |
     Fabric | 5                                  |
        Oil | 3                                  |
+        HP | 20                                 |
+       ATK | 4                                  |
     Barter | 3:2 Fabric:Duct Tape               |
      Build | Bandages                           |
            | for 1 Fabric, 1 Duct Tape          |
@@ -189,6 +212,8 @@ Est. Value | 5.166666666666667                  |
      Metal | 6                                  |
     Fabric | 6                                  |
        Oil | 2                                  |
+        HP | 17                                 |
+       ATK | 4                                  |
     Barter | 1:2 Metal:Fabric                   |
      Build | 1/2 Tote Bags                      |
            | for 2/4 Fabric                     |
@@ -205,6 +230,8 @@ Est. Value | 4.5                                |
      Metal | 8                                  |
     Fabric | 4                                  |
        Oil | 4                                  |
+        HP | 20                                 |
+       ATK | 4                                  |
     Barter | +2 Duct Tape for Disassembling 1 T |
            | ool                                |
      Build | Whacking Plank                     |
@@ -225,9 +252,11 @@ Est. Value | 5.333333333333333                  |
      Metal | 5                                  |
     Fabric | 1                                  |
        Oil | 1                                  |
+        HP | 11                                 |
+       ATK | 4                                  |
     Barter | +2 Metal and +2 Fabric for 2 Oil   |
-     Build | Oil Pan                            |
-           | for 2 Metal, 1 Duct Tape           |
+     Build | Oil Rag                            |
+           | for 3 Fabric                       |
     Battle | 11 HP. 4 ATK                       |
            | ⃠ Have Whacking Plank              |
       Card | 6                                  |
