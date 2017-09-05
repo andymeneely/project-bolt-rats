@@ -36,6 +36,11 @@ See full changes: [from 6.1 to 7.0](https://github.com/andymeneely/project-bolt-
 * Added a `rake` task to build sheets compatible with Tabletop Simulator
 * Noted the back of the card for easier sleeving
 * Video: [Letting it Ripen](https://www.youtube.com/watch?v=vBz3Pyec_HU&index=10&list=PLLcm4ZswgXFYk6KKW_ISd8Kf9UGTV9Cfj)
+* Video: [Build to Tabletop Simulator](https://www.youtube.com/watch?v=UamjG8u8j7A&list=PLLcm4ZswgXFYk6KKW_ISd8Kf9UGTV9Cfj&index=11)
+* Video: [Rules explanation](https://www.youtube.com/watch?v=UamjG8u8j7A&list=PLLcm4ZswgXFYk6KKW_ISd8Kf9UGTV9Cfj&index=11)
+* Video: Playtest 1 of v6.1](https://www.youtube.com/watch?v=UamjG8u8j7A&list=PLLcm4ZswgXFYk6KKW_ISd8Kf9UGTV9Cfj&index=11)
+* Video: [Playtest 2 of 6.1](https://www.youtube.com/watch?v=UamjG8u8j7A&list=PLLcm4ZswgXFYk6KKW_ISd8Kf9UGTV9Cfj&index=11)
+* Video: [Playtest 3 of 6.1](https://www.youtube.com/watch?v=IbjkJH5Q6Uo&list=PLLcm4ZswgXFYk6KKW_ISd8Kf9UGTV9Cfj&index=15)
 
 No changes in rules or components.
 
