@@ -13,6 +13,7 @@ def markdown_to_pdfstyles(text)
   text
     .gsub(anything_inside("**"))      {|txt| "<b>#{txt.tr("**","")}</b>"}
     .gsub(anything_inside("_"))       {|txt| "<i>#{txt.tr("_","")}</i>"}
+    .gsub(anything_inside("##", "\n")) {|txt| "<font size='10' name='Helvetica'><b>#{txt.sub(/^\#*/,"")}</b></font>"}
     .gsub(anything_inside("#", "\n")) {|txt| "<font size='12' name='Helvetica'><b>#{txt.sub(/^\#*/,"")}</b></font>"}
     # .gsub(/\#(.*)\n/) {|txt|}
     # .gsub(anything_inside("`"))  {|txt| "<code>#{txt.tr("`","")}</code>"}

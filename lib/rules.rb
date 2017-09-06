@@ -1,7 +1,9 @@
 require 'prawn'
 require_relative 'markdown_to_pdfstyles'
+require_relative 'version'
 
 rules_text = markdown_to_pdfstyles(File.read('docs/rules.md'))
+rules_text << "\nVersion #{BoltRats::VERSION}"
 
 Prawn::Document.generate("_output/rules_via_prawn.pdf",
                          page_size: [180, 252], # 2.5in x 3.5in
