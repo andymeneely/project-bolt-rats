@@ -23,7 +23,7 @@ Throughout the game, you will be managing several of your character's resources.
 **Attack (ATK)** represents additional attack power you have. Track with a red cube. Max ATK is 4.
 **Time Left (RND)** represents the number of rounds you have after this one.
 ## TOOLS
-Tools need yellow cubes to carry. You may carry as many Tools of the same type as you can, using one yellow cube each.
+Tools need yellow cubes to carry. You may carry as many Tools of the same type as you can, using one yellow cube each, and their effects will stack.
 Some tools provide an ongoing power _(e.g. Bandages),_ while others are one-time usage _(e.g. Fireball)._ You may discard Tools at any time, with one exception (see "Build" below).
 ## GAMEPLAY
 Each game is played in a series of Rounds. At the beginning of each Round, shuffle the Creature cards without looking at them. Place the first 5 Creature cards like so:
@@ -80,18 +80,20 @@ _* For example, your Fabric is at 3 and you Build a Tote Bag, freeing up the yel
 At the end of each Round, decrease the Time Left tracker by 1.
 ## GAME END
 * If you run out of HP, you lose.
-* If you go to deal your 5 cards at the beginning of a Round have fewer than 5, you lose.
+* If you go to deal your five cards at the beginning of a Round and you cannot, you lose.
 * If you are at 0 RND at the end of your last encounter, you lose.
 You may build the Zeppelin immediately once you have gained the requisite resources noted on the bottom of the Tools card. At that time, flip the Tool card over and battle The Crane. If you defeat The Crane, you win!
 
 ## EXTRA CHALLENGES
-Looking for some extra challenges? Try these modified rules.
+Looking for some extra challenges? Try these official variants.
+**PACKRAT**
+Win a standard game, but always carry every material given after every barter and battle. _Somewhat Hard_.
 **CAMPAIGN**
-Win 3 consecutive games. After each Crane victory, your Carry resets to 3, and your HP and any Resources or Tools you can Carry rolls over (you do not get additional Metal/Fabric/Oil for subsequent games). Reset ATK to 0. Time Left starts at 7 for the first game, then 5 for the second, then 4 for the third. Creatures reset to Small each time. _Somewhat Hard._
+Win 3 consecutive games. After each Crane victory, your Carry resets to 3, and your HP and any Resources or Tools you can Carry rolls over (you do not get additional Metal/Fabric/Oil for subsequent games). Reset ATK to 0. Time Left starts at 7 for the first game, then 6 for the second, then 5 for the third. Creatures reset to Small each time. _Somewhat Hard._
 **NO PETS**
 Start with the Socket Wrench Puppy flipped over. _Hard._
 **ANALYSIS PARALYSIS**
-Deal a third row of cards each round as another option, but you must gain 10 Metal, 8 Fabric, 4 Oil, and 4 Duct Tape for the Zeppelin. _Hard._
+Deal a third row of cards each round as another option, but start Time Left at 5. If you cannot deal all rows of cards at the beginning of a round, you lose. _Hard._
 **PACKED LIGHT**
 Start with 7 Metal, 6 Fabric, no Oil, and 2 Carry. _Harder._
 **BEAST MODE**

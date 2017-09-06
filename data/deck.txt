@@ -85,7 +85,7 @@ Est. Value | 2.25                               |
     Barter | 4:3:2:1 for Metal:Fabric:Oil:Duct  |
            | Tape                               |
      Build | Oil Rag                            |
-           | for 3 Fabric                       |
+           | for 2 Fabric                       |
     Battle | 10 HP. 3 ATK.                      |
            | +1 Carry upon Defeat               |
       Card | 5                                  |
@@ -257,7 +257,7 @@ Est. Value | 5.333333333333333                  |
        ATK | 4                                  |
     Barter | +1 ATK for -1 Carry                |
      Build | Oil Rag                            |
-           | for 3 Fabric                       |
+           | for 2 Fabric                       |
     Battle | 11 HP. 4 ATK                       |
            | ⃠ Ditch Whacking Plank             |
       Card | 6                                  |
