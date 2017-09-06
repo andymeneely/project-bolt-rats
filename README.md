@@ -21,6 +21,10 @@ Some videos are just me talking about my process, others are screen captures of 
 
 # Versions
 
+## v7.1 / 2017-09-06
+* Rules are built to PDF using Prawn and Markdown
+* Cards are built to a PNP PDF - no more need for sleeves if you can print front-and-back!
+
 ## v7.0 / 2017-09-01
 
 * Balance changes! We're starting to zero in on a stable game here.
