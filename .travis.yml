@@ -14,7 +14,7 @@ deploy:
   file:
     - _output/pnp_letter.pdf
     - _output/pnp_a4.pdf
-    - docs/rules.docx
+    - _output/rules.pdf
   skip_cleanup: true
   on:
     repo: andymeneely/project-bolt-rats
