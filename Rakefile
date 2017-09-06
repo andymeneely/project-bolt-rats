@@ -7,7 +7,7 @@ CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 task default: [:deck]
 
-task all: [:deck, :tts, :rules]
+task all: [:deck, :tts, :pnp, :rules]
 
 task(:deck)     { load 'lib/deck.rb' }
 task(:sim)      { load 'lib/sim_combat.rb' }
@@ -16,4 +16,8 @@ task(:rules)    { load 'lib/rules.rb' }
 
 task(:tts => :deck) do
   load 'lib/tabletop_simulator.rb'
+end
+
+task(:pnp => :deck) do
+  load 'lib/pnp.rb'
 end
