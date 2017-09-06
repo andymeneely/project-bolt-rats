@@ -30,7 +30,7 @@ Est. Value | 1.75                               |
            | or 2:1 Fabric:Oil                  |
      Build | Fireball                           |
            | for 1 Fabric, 1 Oil                |
-    Battle | 8 HP. 2 ATK.                       |
+    Battle | 10 HP. 2 ATK.                      |
       Card | 2                                  |
 Est. Value | 2.0                                |
      Notes | Oil dealer, but you need a good vo |
@@ -48,7 +48,7 @@ Est. Value | 2.0                                |
     Barter | Recover 3/6/10 HP for 1/2/3 Oil    |
      Build | Bandages                           |
            | for 1 Fabric, 1 Duct Tape          |
-    Battle | 6 HP. 1 ATK.                       |
+    Battle | 7 HP. 1 ATK.                       |
       Card | 3                                  |
 Est. Value | 1.0                                |
      Notes | Healer. Doesn't give much but heal |
@@ -65,7 +65,7 @@ Est. Value | 1.0                                |
        ATK | 2                                  |
     Barter | +1 Duct Tape for 3 Fabric          |
            | or +2 Duct Tape for 4 Fabric       |
-     Build | Tape Dispensor                     |
+     Build | Shiny Shiv                         |
            | for 2 Metal, 1 Oil                 |
     Battle | 14 HP. 2 ATK.                      |
            |  ⃠ Ditch Bandages                  |
@@ -125,7 +125,7 @@ Est. Value | 2.25                               |
     Barter | 2:2 Metal:Fabric                   |
      Build | Tote Bag                           |
            | for 3 Fabric                       |
-    Battle | 15 HP. 2 ATK.                      |
+    Battle | 13 HP. 2 ATK.                      |
            | +3 HP upon Defeat                  |
       Card | 7                                  |
 Est. Value | 2.5833333333333335                 |
@@ -140,8 +140,9 @@ Est. Value | 2.5833333333333335                 |
        Oil | 5                                  |
         HP | 15                                 |
        ATK | 3                                  |
-    Barter | 5:3 Metal:Fabric                   |
-     Build | Tape Dispensor                     |
+    Barter | 2:2 Metal:Oil                      |
+           | or 1:1 Fabric:Oil                  |
+     Build | Shiny Shiv                         |
            | for 2 Metal, 1 Oil                 |
     Battle | 15 HP. 3 ATK.                      |
            |  ⃠ Ditch Tote Bag                  |
@@ -181,7 +182,7 @@ Est. Value | 2.5                                |
      Build | Strong Magnet                      |
            | for 2 Metal                        |
     Battle | 16 HP. 3 ATK.                      |
-           |  ⃠ Have Strong Magnet              |
+           |  ⃠ Ditch Strong Magnet             |
       Card | 2                                  |
 Est. Value | 2.5833333333333335                 |
      Notes | Attack creature, but now with meta |
@@ -214,7 +215,7 @@ Est. Value | 5.166666666666667                  |
        Oil | 2                                  |
         HP | 17                                 |
        ATK | 4                                  |
-    Barter | 1:2 Metal:Fabric                   |
+    Barter | 2:3 Metal:Fabric                   |
      Build | 1/2 Tote Bags                      |
            | for 2/4 Fabric                     |
     Battle | 17 HP. 4 ATK.                      |
@@ -254,11 +255,11 @@ Est. Value | 5.333333333333333                  |
        Oil | 1                                  |
         HP | 11                                 |
        ATK | 4                                  |
-    Barter | +2 Metal and +2 Fabric for 2 Oil   |
+    Barter | +1 ATK for -1 Carry                |
      Build | Oil Rag                            |
            | for 3 Fabric                       |
     Battle | 11 HP. 4 ATK                       |
-           | ⃠ Have Whacking Plank              |
+           | ⃠ Ditch Whacking Plank             |
       Card | 6                                  |
 Est. Value | 2.083333333333333                  |
      Notes | Oil to both Metal and Fabric       |

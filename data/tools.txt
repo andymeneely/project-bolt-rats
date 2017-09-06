@@ -10,8 +10,8 @@ Gain +1 Oil on any Barter that involves Oil.
 Strong Magnet
 Gain 2 Metal at first encounter each round
 
-Tape Dispensor
-Gain 2 Metal, 2 Fabric,  and 1 Oil for 1 Duct Tape, any time
+Shiny Shiv
+Creatures start with 2HP fewer each battle
 
 Tote Bag
 Use for +1 Carry
