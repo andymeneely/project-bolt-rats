@@ -21,6 +21,20 @@ Some videos are just me talking about my process, others are screen captures of 
 
 # Versions
 
+## v8.0 / 2017-09-06
+
+* Tape dispensor just wasn't cutting it. Replaced with Shiny Shiv to represent a more aggressive battle-heavy strategy
+* Oil Rag is cheaper so it doesn't compete with Tote Bag as much
+* Boosted HP of some creatures since Shiny Shiv allows for better battling
+* Ugly Sweater Ghost lowered HP to give people a reason to battle him
+* Made some Big creatures more tantalizing, like Sprocket Snake and Tap Spider
+* Nerfed a few "Have" powers like the Strong Magnet and Whacking Plank
+* Video: [The Shiny Shiv!](https://www.youtube.com/watch?v=o7Omlv2j0HI&index=16&list=PLLcm4ZswgXFYk6KKW_ISd8Kf9UGTV9Cfj)
+
+No real substantive rules, other than lots of clarifications. Extra Challenges have evolved too.
+
+See full changes: [from 7.0 to 8.0](https://github.com/andymeneely/project-bolt-rats/compare/v7.0...v8.0)
+
 ## v7.1 / 2017-09-06
 * Rules are built to PDF using Prawn and Markdown
 * Cards are built to a PNP PDF - no more need for sleeves if you can print front-and-back!
