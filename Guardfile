@@ -18,3 +18,14 @@ group :rules do
     watch %r{img/.*\.svg$}
   end
 end
+
+group :coin_tracker do
+  guard 'rake', :task => 'coin_tracker' do
+    watch %r{data/.*\.xlsx$}
+    watch %r{data/.*\.csv$}
+    watch %r{lib/.*\.rb$}
+    watch %r{.*\.yml}
+    watch %r{.*\.md}
+    watch %r{img/.*\.svg$}
+  end
+end

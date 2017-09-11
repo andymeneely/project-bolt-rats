@@ -8,10 +8,11 @@ The process of making this game is being documented for users of [Squib](http://
 
 # Get the latest
 
-  * Download `rules.docx`, `creatures.pdf`, and `resources.pdf` from [latest GitHub releases](https://github.com/andymeneely/project-bolt-rats/releases/latest)
+  * Download `rules.pdf`, `creatures.pdf`, and `resources.pdf` from [latest GitHub releases](https://github.com/andymeneely/project-bolt-rats/releases/latest)
   * Print them out. Be sure to turn off page scaling
   * Cut them up
   * Put them in 2.5x3.5 sleeves. Pay close attention to what card should be on the back of what (small text in the corner).
+  * Don't have cubes? Use the `coin_tracker.pdf` and a couple of pennies and dimes to track your stats on a full sheet of paper instead.
 
 # Vlog
 
@@ -20,6 +21,9 @@ Check out [the entire Vlog](https://www.youtube.com/playlist?list=PLLcm4ZswgXFYk
 Some videos are just me talking about my process, others are screen captures of walking through the entire prototyping process.
 
 # Versions
+
+## v8.1 / 2017-09-11
+* Made a coin tracker PDF
 
 ## v8.0 / 2017-09-06
 
