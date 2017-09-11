@@ -21,3 +21,5 @@ end
 task(:pnp => :deck) do
   load 'lib/pnp.rb'
 end
+
+task(:coin_tracker) { load 'lib/coin_tracker.rb' }
