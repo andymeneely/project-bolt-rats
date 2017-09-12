@@ -22,6 +22,9 @@ Some videos are just me talking about my process, others are screen captures of 
 
 # Versions
 
+## v8.2 / 2017-09-12
+* Minor font improvements to the coin tracker PDF
+
 ## v8.1 / 2017-09-11
 * Made a coin tracker PDF
 
