@@ -20,7 +20,7 @@ Squib::Deck.new(cards: 1, width: '8in', height: '10.5in') do
     {x: 1140, y: 270, width: 340, height: 250},
     {x: 1740, y: 270, width: 340, height: 250},
   ].each.with_index do |c, i|
-    text font: 'Archivo Narrow, Sans 36',
+    text font: 'Archivo Narrow, Sans 10',
          markup: true,
          spacing: -8,
          valign: :middle,
@@ -31,7 +31,7 @@ Squib::Deck.new(cards: 1, width: '8in', height: '10.5in') do
          height: c[:height]
   end
   text str: "<b>Zeppelin:</b> 8 Metal, 6 Fabric, 4 Oil, 3 Duct Tape",
-       font: 'Archivo Narrow, Sans 52', markup: true, x: 75, y: 550,
+       font: 'Archivo Narrow, Sans 17', markup: true, x: 75, y: 550,
        width: 2250, ellipsize: false, align: :center
   save_pdf file: 'coin_tracker.pdf',
            width: '8.5in',

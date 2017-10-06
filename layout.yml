@@ -5,8 +5,8 @@ barter:
   width: 675
   height: 120
   hint: black
-  font: Serif, Segoe UI Symbol
-  font_size: 26
+  font: Times New Roman, Segoe UI Symbol
+  font_size: 9
   valign: middle
   ellipsize: false
 build:
@@ -54,11 +54,11 @@ safe:
   dash: 3 3
 
 version:
-  font: Sans 16
+  font: Sans 6
   x: 725
   y: 45
 
 back:
-  font: Sans 16
+  font: Sans 6
   x: 45
   y: 1060

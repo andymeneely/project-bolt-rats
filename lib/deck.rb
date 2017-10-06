@@ -14,7 +14,7 @@ Squib::Deck.new(cards: 14) do
   rect layout: :cut
   rect layout: :safe
   text layout: :title, str: data.name
-  text layout: :type, str: data.size.map { |s| "#{s} Creature"} , font_size: 28
+  text layout: :type, str: data.size.map { |s| "#{s} Creature"} , font_size: 9
 
   composition = data.fabric.zip(data.metal, data.oil).map do |f,m,o|
     str = ""
@@ -24,7 +24,7 @@ Squib::Deck.new(cards: 14) do
     str
   end
   text layout: :type_right, str: composition,
-       font: 'Sans, Segoe UI Symbol Bold 32' , align: :right, x: 425, width: 325
+       font: 'Sans, Segoe UI Symbol Bold 11' , align: :right, x: 425, width: 325
 
   text layout: :barter, str: data.barter
   # text layout: :barter, str: 'Barter', valign: :top
@@ -61,7 +61,7 @@ Squib::Deck.new(cards: 3) do
   item_bonuses = data.recipe.zip(data.bonus).map do |r,b|
     "<b>#{r}</b>. <i>#{b}</i> "
   end.join("\n \n")
-  text range: 1, font: 'Archivo Narrow, Sans 32', markup: true,
+  text range: 1, font: 'Archivo Narrow, Sans 11', markup: true,
        spacing: -8,
        x: 150, y: 75, width: 575, ellipsize: false,
        str: item_bonuses
