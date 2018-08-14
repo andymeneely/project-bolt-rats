@@ -233,8 +233,7 @@ Est. Value | 4.5                                |
        Oil | 4                                  |
         HP | 20                                 |
        ATK | 4                                  |
-    Barter | +2 Duct Tape for Disassembling 1 T |
-           | ool                                |
+    Barter | +2 Duct Tape for Ditching 1 Tool   |
      Build | Whacking Plank                     |
            | for 2 Metal, 1 Fabric              |
     Battle | 20 HP. 4 ATK.                      |

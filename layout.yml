@@ -32,7 +32,7 @@ type:
 
 type_right:
   x: 595
-  y: 650
+  y: 640
   width: 135
   height: 50
   align: right
